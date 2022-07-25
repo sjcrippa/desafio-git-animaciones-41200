@@ -267,4 +267,24 @@ footer {
 }
  /* APLICACION DE ANIMACIONES Y GRADIANTES */
 
- 
+.imagen {
+    transition: height 0.5s, width 0.5s;
+}
+.imagen:hover {
+    height: 380px;
+    width: 390px;
+ }
+
+ @keyframes texto {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 100;
+    }
+}
+.titulo {
+    animation-name: texto;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
