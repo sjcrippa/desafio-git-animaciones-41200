@@ -13,10 +13,7 @@ body {
 }
 
 header {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    height: 100px;
+    height: 80px;
     background-color:blanchedalmond;
     border-bottom: black solid 2px;
     grid-area: header;
@@ -102,7 +99,7 @@ footer {
     border: black solid;
     border-radius: 4px;
     text-align: center;
-    background-color: coral;
+    background-color: blanchedalmond;
     font-size: smaller;
 }
 
@@ -114,9 +111,9 @@ footer {
 }
 .tituloCate {
     text-align: center;
-    width: 200px;
+    width: 250px;
     height: 40px;
-    display: flex;
+    /* display: flex; */
     top: 0;
     bottom: 0;
     left: 0;
@@ -179,8 +176,8 @@ footer {
 
 .hDos {
     text-align: center;
-    width: 200px;
-    height: 60px;
+    width: 225px;
+    height: 100px;
     display: flex;
     top: 0;
     bottom: 0;
@@ -197,14 +194,14 @@ footer {
 .hCuatro {
     text-align: center;
     width: 400px;
-    height: 125px;
+    height: 350px;
     border: 2px black solid;
     border-radius: 16px;
-    display: flex;
+    /* display: flex;
     top: 0;
     bottom: 0;
     left: 0;
-    right: 0;
+    right: 0; */
     margin: auto;  
     background-color: blanchedalmond;
     align-items: center;
@@ -228,9 +225,9 @@ footer {
 /* PAGINA DE CONSULTAS */
 
 .cajaConsultas {
-    width: 420px;
-    height: 390px;
-    display: flex;
+    width: 500px;
+    height: 700px;
+    /* display: flex; */
     top: 0;
     bottom: 0;
     left: 0;
@@ -244,6 +241,7 @@ footer {
     text-align: center;
     border: 2px black solid;
     background-color: blanchedalmond;
+    border-radius: 14px;
 }
 
 /* APLICACION MEDIA QUERIES. */
@@ -288,3 +286,6 @@ footer {
     animation-duration: 2s;
     animation-iteration-count: infinite;
 }
+
+/* BOOTSTRAP */
+
