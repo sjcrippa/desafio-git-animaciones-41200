@@ -68,31 +68,21 @@ nav ul li a {
     background-color: coral;
     text-align: center;
 }
-.menu {
-    display: grid;
-    grid-template-areas: 
-    "section aside"
-    "section aside";
 
-    gap: 5rem;
-}
-.section {
-    grid-area: section;
-    height: 100%;
-    border: black solid;
-    border-radius: 4px;
+/* COMIENZO MENU INDEX */
+
+.menuIndex {
     background-color: blanchedalmond;
-    text-align: center;
+    border: 2px black solid;
+    border-radius: 8px;
 }
 
-.aside {
-    grid-area: aside;
-    height: 100%;
-    border: black solid;
-    border-radius: 4px;
-    background-color: blanchedalmond;
-    text-align: center;
+.tituloMenu {
+    color: black;
 }
+
+
+/*FIN MENU INDEX */
 
 footer {
     grid-area: footer;
