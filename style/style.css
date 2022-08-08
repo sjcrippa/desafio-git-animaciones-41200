@@ -12,7 +12,6 @@ body {
   height: calc(100vh - 100px); }
 
 header {
-  height: 80px;
   background-color: blanchedalmond;
   border-bottom: black solid 2px;
   grid-area: header; }
@@ -21,7 +20,7 @@ header {
 .imagen {
   height: 320px;
   width: 320px;
-  position: absolute;
+  /* position: absolute; */
   top: 0;
   bottom: 0;
   left: 0;
@@ -37,6 +36,7 @@ nav ul li {
     text-decoration: none;
     color: coral;
     font-size: 1rem;
+    font-weight: bold;
     margin-left: 20px;
     text-transform: uppercase; }
 
@@ -45,7 +45,6 @@ nav ul li {
   font-size: 2.5rem; }
 
 #servicios {
-  margin-top: 300px;
   margin-bottom: 50px;
   display: flex;
   justify-content: space-around;
