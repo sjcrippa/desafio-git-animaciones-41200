@@ -1,16 +1,5 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
-* {
-  margin: 0;
-  padding: 0; }
-
-body {
-  font-family: 'Roboto', sans-serif;
-  background-image: url(../imagenes/reel-fondo.jpg);
-  width: 100%;
-  background-size: cover;
-  height: calc(100vh - 100px); }
-
 header {
   background-color: blanchedalmond;
   border-bottom: black solid 2px;
@@ -20,7 +9,6 @@ header {
 .imagen {
   height: 320px;
   width: 320px;
-  /* position: absolute; */
   top: 0;
   bottom: 0;
   left: 0;
@@ -36,13 +24,23 @@ nav ul li {
     text-decoration: none;
     color: coral;
     font-size: 1rem;
-    font-weight: bold;
     margin-left: 20px;
     text-transform: uppercase; }
 
 .titulo {
   color: coral;
   font-size: 2.5rem; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-image: url(../imagenes/reel-fondo.jpg);
+  width: 100%;
+  background-size: cover;
+  height: calc(100vh - 100px); }
 
 #servicios {
   margin-bottom: 50px;
@@ -60,7 +58,6 @@ nav ul li {
   background-color: coral;
   text-align: center; }
 
-/* COMIENZO MENU INDEX */
 .menuIndex {
   background-color: blanchedalmond;
   border: 2px black solid;
@@ -69,7 +66,6 @@ nav ul li {
 .tituloMenu {
   color: black; }
 
-/*FIN MENU INDEX */
 footer {
   grid-area: footer;
   border: black solid;
@@ -78,7 +74,6 @@ footer {
   background-color: blanchedalmond;
   font-size: smaller; }
 
-/* PAGINA DE CATEGORIAS */
 #h2 {
   color: coral;
   font-weight: bolder; }
@@ -87,7 +82,6 @@ footer {
   text-align: center;
   width: 250px;
   height: 40px;
-  /* display: flex; */
   top: 0;
   bottom: 0;
   left: 0;
@@ -139,7 +133,6 @@ footer {
   grid-template-areas: "uno dos tres" "cuatro cinco seis";
   gap: 5rem; }
 
-/* PAGINA DE UBICACION */
 .hDos {
   text-align: center;
   width: 225px;
@@ -163,11 +156,6 @@ footer {
   height: 350px;
   border: 2px black solid;
   border-radius: 16px;
-  /* display: flex;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0; */
   margin: auto;
   background-color: blanchedalmond;
   align-items: center;
@@ -187,11 +175,9 @@ footer {
   justify-content: center;
   box-shadow: 3px 3px 3px; }
 
-/* PAGINA DE CONSULTAS */
 .cajaConsultas {
   width: 500px;
   height: 700px;
-  /* display: flex; */
   top: 0;
   bottom: 0;
   left: 0;

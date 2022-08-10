@@ -1,0 +1,68 @@
+#h2 {
+    color: $color-primario;
+    font-weight: bolder;
+  }
+  
+  .tituloCate {
+    text-align: center;
+    width: 250px;
+    height: 40px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 50px;
+    border: 2px black solid;
+    background-color: $color-sec;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 3px 3px 3px;
+  }
+  
+  .tarjeta {
+    height: 350px;
+    width: 350px;
+    border: 2px black solid;
+    border-radius: 50px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 6px 6px 6px;
+  }
+  
+  .uno {
+    grid-area: uno;
+    background-image: url(../imagenes/categorias/cat-cañas.jpg);
+  }
+  
+  .dos {
+    grid-area: dos;
+    background-image: url(../imagenes/categorias/cat-señuelos.jpg);
+  }
+  
+  .tres {
+    grid-area: tres;
+    background-image: url(../imagenes/categorias/cat-equipo.jpg);
+  }
+  
+  .cuatro {
+    grid-area: cuatro;
+    background-image: url(../imagenes/categorias/cat-señuelos-dos.jpg);
+  }
+  
+  .cinco {
+    grid-area: cinco;
+    background-image: url(../imagenes/categorias/cat-reels.jpg);
+  }
+  
+  .seis {
+    grid-area: seis;
+    background-image: url(../imagenes/categorias/cat-reels-dos.jpg);
+  }
+  
+  .tarjetaPadre {
+    display: grid;
+    grid-template-areas: "uno dos tres" "cuatro cinco seis";
+    gap: 5rem;
+  }

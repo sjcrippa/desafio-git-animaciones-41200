@@ -1,0 +1,19 @@
+  .cajaConsultas {
+    width: 500px;
+    height: 700px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .cajaFieldset {
+    text-align: center;
+    border: 2px black solid;
+    background-color: $color-sec;
+    border-radius: 14px;
+  }
+  

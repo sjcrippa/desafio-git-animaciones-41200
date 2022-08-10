@@ -1,0 +1,27 @@
+#servicios {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    grid-area: servicios;
+  }
+  
+  .caja {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid;
+    border-radius: 4px;
+    box-shadow: 3px 3px 3px;
+    background-color: $color-primario;
+    text-align: center;
+  }
+  
+  .menuIndex {
+    background-color: $color-sec;
+    border: 2px black solid;
+    border-radius: 8px;
+  }
+  
+  .tituloMenu {
+    color: black;
+  }
